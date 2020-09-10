@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StNickolas">
+    <output-path>$USER_HOME$/Desktop/Internal Testing Server/plugins</output-path>
+    <root id="archive" name="StNickolas.jar">
+      <element id="module-output" name="StNicker" />
+    </root>
+  </artifact>
+</component>
