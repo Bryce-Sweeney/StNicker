@@ -1,0 +1,10 @@
+name: StNicker
+main: me.CodeConduit.StNicker.Main
+version: 0.0.0
+Name: StNicker
+api-version: 1.16
+
+commands:
+  nick:
+    description: Changes your display name, rank, and skin at your pleasure.
+    usage: /nick [name - name] [skin - true/false/customSkin]
