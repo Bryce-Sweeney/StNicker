@@ -3,6 +3,7 @@ package me.CodeConduit.StNickolas.listeners;
 import me.CodeConduit.StNickolas.Main;
 import me.CodeConduit.StNickolas.Utils;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
@@ -21,6 +22,9 @@ public class ChatListen implements Listener {
     @EventHandler
     public void onChat(AsyncPlayerChatEvent e) {
         e.setCancelled(true);
-        Bukkit.broadcastMessage(Utils.chat("[&b&lDefault Rank&r] " + e.getPlayer().getDisplayName() + ": " + e.getMessage()));
+        Player player  = (Player) e.getPlayer();
+        String rank = (String) plugin.getPlayerDataConfig().get(player.getUniqueId() + ".rank");
+        String rankColor = (String) plugin.getPlayerDataConfig().get(player.getUniqueId() + ".rankColor");
+        Bukkit.broadcastMessage(Utils.chat("[" + rankColor + "&l" + rank + "&r] " + e.getPlayer().getDisplayName() + ": " + e.getMessage()));
     }
 }

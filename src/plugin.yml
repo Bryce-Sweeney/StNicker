@@ -1,9 +1,11 @@
 name: StNickolas
 main: me.CodeConduit.StNickolas.Main
-version: 0.0.0
+version: 0.1.0
 Name: StNickolas
 api-version: 1.16
 
 commands:
   nick:
     description: Changes your display name, rank, and skin at your pleasure.
+  unnick:
+    description: Returns you to your normal name, rank, and skin.

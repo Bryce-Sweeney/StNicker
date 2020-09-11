@@ -16,7 +16,7 @@ public class NickCommand implements CommandExecutor {
     public NickCommand(Main plugin) {
         this.plugin = plugin;
 
-        plugin.getCommand("nick").setExecutor(this);
+        plugin.getCommand("unnick").setExecutor(this);
     }
 
     //CommandExecutor
