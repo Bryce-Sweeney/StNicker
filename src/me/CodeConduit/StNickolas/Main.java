@@ -1,7 +1,7 @@
-package me.CodeConduit.StNicker;
+package me.CodeConduit.StNickolas;
 
-import me.CodeConduit.StNicker.commands.NickCommand;
-import me.CodeConduit.StNicker.listeners.ChatListen;
+import me.CodeConduit.StNickolas.commands.NickCommand;
+import me.CodeConduit.StNickolas.listeners.ChatListen;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {

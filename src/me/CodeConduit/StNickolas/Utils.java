@@ -1,4 +1,4 @@
-package me.CodeConduit.StNicker;
+package me.CodeConduit.StNickolas;
 
 import org.bukkit.ChatColor;
 

@@ -1,7 +1,7 @@
-package me.CodeConduit.StNicker.commands;
+package me.CodeConduit.StNickolas.commands;
 
-import me.CodeConduit.StNicker.Main;
-import me.CodeConduit.StNicker.Utils;
+import me.CodeConduit.StNickolas.Main;
+import me.CodeConduit.StNickolas.Utils;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

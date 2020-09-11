@@ -1,7 +1,7 @@
 name: StNickolas
-main: me.CodeConduit.StNicker.Main
+main: me.CodeConduit.StNickolas.Main
 version: 0.0.0
-Name: StNicker
+Name: StNickolas
 api-version: 1.16
 
 commands:

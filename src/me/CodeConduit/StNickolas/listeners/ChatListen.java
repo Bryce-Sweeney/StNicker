@@ -1,7 +1,7 @@
-package me.CodeConduit.StNicker.listeners;
+package me.CodeConduit.StNickolas.listeners;
 
-import me.CodeConduit.StNicker.Main;
-import me.CodeConduit.StNicker.Utils;
+import me.CodeConduit.StNickolas.Main;
+import me.CodeConduit.StNickolas.Utils;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
